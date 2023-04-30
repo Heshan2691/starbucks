@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 25px 40px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header .logo {
+    width: 52px;
+    height: 52px;
+    padding-right: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 0px;
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+    padding: 0 15px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+
+#navbar li a:hover {
+    color: #00754a;
+}
+
+.location {
+    margin-left: 600px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.location:hover{
+    color: #00754a;
+}
+
+
+.btn-1 {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    line-height: 1.2;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+
+.btn-1:hover {
+    background-color: #edebe9;
+}
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    transition: all .2s ease;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn-2:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+/*------------------------------------------*/
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    width: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 80px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    margin-left: 100px;
+    width: 20%;
+    overflow-y: auto;
+    
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 5px;
+    color: rgba(0, 0, 0, .58);
+    text-decoration: none;
+}
+
+.sidebar li a:hover {
+    background-color: none;
+    cursor: pointer;
+}
+
+hr{
+    width: 100%;
+    padding-left: 0;
+    opacity: 30%;
+}
+
+.container {
+    width: 80%;
+    float: right;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: fragments;
+    margin-top: 2800px;
+}
+
+.container img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.container a {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    padding-left: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container a:hover{
+    cursor: pointer;
+}
+
+.container table{
+    border: none;
+    padding: 20px;
+}
+
+.container td{
+    padding: 10px;
+    width: 20%;
+}
+
+
+
+
+
+
+/*Footer*/
+
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    position: relative;
+    padding: 0 15px 0 0;
+    text-align: left;
+}
+
+li a{
+    text-decoration: none;
+    line-height: 35px;
+    text-align: left;
+    color: rgba(0,0,0,.58);
+    cursor: pointer;
+}
+
+li a:hover{
+    color: black;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.1), 0 -2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+    padding: 20px;
+    margin-top: 2900px;
+    
+}
+.footer .section{
+    width: 20%;
+}
+
+.footer .section .item{
+    color: rgba(0,0,0,.58);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer h4{
+    margin:10px 0;
+}
+
+.footer .section .item:hover{
+    color:#0a0a0a;
+}
